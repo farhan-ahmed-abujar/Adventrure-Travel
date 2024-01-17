@@ -21,9 +21,12 @@ font-family: 'Work Sans', sans-serif;
 .header-section{
     max-width: 1170px;
     margin: 0 auto;
-    display: flex;
+    display: flex;   
     
     
+}
+.color{
+    background-color: #FF5400;
 }
 .items-container{
      width: 50%;
@@ -36,6 +39,8 @@ font-family: 'Work Sans', sans-serif;
 }
 .awesome{
     background-color:#fff;
+    justify-content: space-between;
+    align-items: center;
 }
 .banner-section{
     min-height: 500px;
@@ -199,6 +204,17 @@ height: 424px;
 height: 422px;
 
  }
+ .fotter-section{
+    max-width: 1170px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+ }
+ 
+ .travel{
+    color: #FF5400;
+ }
+
 
 
 
