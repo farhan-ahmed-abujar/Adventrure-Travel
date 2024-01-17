@@ -145,7 +145,61 @@ gap: 24px;
  .align-text{
        max-width: 1170px;
        margin: 0 auto;
+       display: flex;
  }
+ .price-tag{
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+ }
+ .hotel{
+    width: 573px;
+height: 284px;
+ }
+ .map-location{
+    width: 573px;
+height: 284px;
+ }
+  .amazing-vew{
+    max-width: 1170px;
+    margin: 0 auto;
+    min-height: 402px;
+    display: flex;
+  }
+  .amazing-1{
+        height: 400px;
+        width: 500px;
+  }
+  .amazing-2{
+    width: 510px;
+height: 424px;
+  }
+  .email{
+    max-width: 1170px;
+    margin: 0 auto;
+    min-height: 400px;
+    display: flex;
+  }
+  .login-from{
+    border: 2px solid #FF5400;
+    width: 498px;
+    height: 422px;
+    font-size: 25px;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+ .button{
+    background-color: #FF5400;
+    border-radius: 2px;
+    color: #fff;
+ }
+ .from-img{
+    width: 672px;
+height: 422px;
+
+ }
+
 
 
 
@@ -172,9 +226,16 @@ gap: 24px;
     .from-section{
         flex-direction: column;
     }
+    .main-section{
+        flex-direction: column;
+    }
+    .img-content1,  .img-content12, .img-content-end, .align-text,  .amazing-vew,  .email, {
+        flex-direction: column;
+    }
 
     .nav-container,.main-section, 
-     .items-container, .header-section, .from-section {
+     .items-container, .header-section, .from-section, .main-section, 
+      .img-content1,  .img-content12, .img-content-end, .align-text,  .amazing-vew,  .email {
         justify-content: center;
        
         align-items: center;
